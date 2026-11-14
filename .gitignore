@@ -1,0 +1,5 @@
+.dev/build/
+.dev/credenciales-prueba.txt
+*.zip
+.dev/herramientas/
+.dev/capturas/

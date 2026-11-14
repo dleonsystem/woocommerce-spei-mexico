@@ -1,0 +1,14 @@
+.tsmx-instrucciones { border: 2px solid currentColor; border-radius: 8px; padding: 1em 1.25em; margin: 1.5em 0; }
+.tsmx-instrucciones h2 { margin-top: 0; }
+.tsmx-datos { width: 100%; border-collapse: collapse; }
+.tsmx-datos th { text-align: left; white-space: nowrap; padding: .4em 1em .4em 0; vertical-align: middle; }
+.tsmx-datos td { padding: .4em 0; font-variant-numeric: tabular-nums; word-break: break-word; }
+.tsmx-copiar { margin-left: .5em; padding: .15em .7em; font-size: .85em; }
+.tsmx-vence { margin-top: 1em; }
+.tsmx-formulario { margin: 2em 0; }
+.tsmx-formulario::after { content: ""; display: table; clear: both; }
+@media (max-width: 480px) { .tsmx-datos th, .tsmx-datos td { display: block; padding: .15em 0; } .tsmx-datos tr { display: block; padding: .4em 0; border-bottom: 1px solid rgba(0,0,0,.1); } }
+.tsmx-instrucciones .tsmx-copiar { background: transparent; color: inherit; border: 1px solid currentColor; border-radius: 4px; cursor: pointer; line-height: 1.6; }
+.tsmx-instrucciones .tsmx-copiar:hover, .tsmx-instrucciones .tsmx-copiar:focus { background: rgba(127,127,127,.12); }
+.tsmx-formulario button[type="submit"] { margin-top: .5em; }
+.tsmx-enviar { clear: both; padding-top: .5em; }

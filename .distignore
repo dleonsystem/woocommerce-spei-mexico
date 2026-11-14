@@ -1,0 +1,9 @@
+.dev
+.git
+.gitignore
+.distignore
+tests
+bin
+*.zip
+.wordpress-org
+pro

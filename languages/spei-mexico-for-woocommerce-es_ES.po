@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: SPEI Mexico for WooCommerce 0.1.0\n"
+
+msgid "Accept SPEI bank transfer payments"
+msgstr "Aceptar pagos por transferencia SPEI"
+
+msgid "Additional instructions (optional)"
+msgstr "Instrucciones adicionales (opcional)"
+
+msgid "After paying, open your order and enter the transfer tracking key so we can confirm it faster."
+msgstr "Cuando pagues, entra a tu pedido y escribe la clave de rastreo de la transferencia para que lo confirmemos más rápido."
+
+msgid "After placing your order you will see the CLABE and the reference to transfer from your banking app. We ship your order as soon as we confirm the deposit."
+msgstr "Al confirmar verás la CLABE y la referencia para transferir desde la app de tu banco. Tu pedido se envía en cuanto confirmemos el depósito."
+
+msgid "Already made the transfer?"
+msgstr "¿Ya hiciste la transferencia?"
+
+msgid "Amount"
+msgstr "Monto"
+
+msgid "Awaiting SPEI transfer."
+msgstr "Esperando transferencia SPEI."
+
+msgid "Bank"
+msgstr "Banco"
+
+msgid "Bank you paid from"
+msgstr "Banco desde el que pagaste"
+
+msgid "Beneficiary"
+msgstr "Beneficiario"
+
+msgid "Between 6 and 30 letters or numbers, no spaces."
+msgstr "Entre 6 y 30 letras o números, sin espacios."
+
+msgid "CLABE"
+msgstr "CLABE"
+
+msgid "CLABE (18 digits)"
+msgstr "CLABE (18 dígitos)"
+
+msgid "Cancelled automatically: the SPEI transfer was not received in time."
+msgstr "Cancelado automáticamente: no se recibió la transferencia SPEI a tiempo."
+
+msgid "Check the transfer date."
+msgstr "Revisa la fecha de la transferencia."
+
+msgid "Checkout description"
+msgstr "Descripción en el checkout"
+
+msgid "Checkout title"
+msgstr "Nombre en el checkout"
+
+msgid "Copied"
+msgstr "Copiado"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Enable"
+msgstr "Activar"
+
+msgid "Enter the bank you paid from."
+msgstr "Elige el banco desde el que pagaste."
+
+msgid "Enter the tracking key shown on your bank receipt. It helps us confirm your payment faster."
+msgstr "Escribe la clave de rastreo que aparece en el comprobante de tu banco. Con ella confirmamos tu pago más rápido."
+
+msgid "Enter these details in Banxico's CEP. If the receipt is found, change the order to “Processing”."
+msgstr "Captura estos datos en el CEP de Banxico. Si aparece el comprobante, cambia el pedido a «Procesando»."
+
+msgid "Exact amount"
+msgstr "Monto exacto"
+
+msgid "Expected amount"
+msgstr "Monto esperado"
+
+msgid "For example: BBVA, Banorte, Santander."
+msgstr "Ejemplo: BBVA, Banorte, Santander."
+
+msgid "From your banking app, transfer the exact amount to this CLABE and type the payment concept exactly as shown. That is how we identify your payment."
+msgstr "Desde la app de tu banco, haz una transferencia a esta CLABE por el monto exacto y escribe el concepto tal cual. Así identificamos tu pago."
+
+msgid "Hours to pay"
+msgstr "Horas para pagar"
+
+msgid "If no payment is reported within this time, the order is cancelled and stock is released. 0 = never cancel."
+msgstr "Si no se reporta el pago en este tiempo, el pedido se cancela y el inventario se libera. 0 = nunca cancelar."
+
+#, php-format
+msgid "It will be cancelled automatically on %s if no payment is reported."
+msgstr "Se cancela automáticamente el %s si no se reporta el pago."
+
+msgid "Let the store know I paid"
+msgstr "Avisar que ya pagué"
+
+msgid "Name or business name of the account holder, exactly as the bank shows it."
+msgstr "Nombre o razón social del titular de la cuenta, tal como aparece en el banco."
+
+msgid "Not cancelled automatically because the customer reported an SPEI payment. Verify it in Banxico's CEP."
+msgstr "No se canceló automáticamente porque el cliente reportó un pago SPEI. Valídalo en el CEP de Banxico."
+
+msgid "Numeric reference"
+msgstr "Referencia numérica"
+
+msgid "Open Banxico CEP"
+msgstr "Abrir el CEP de Banxico"
+
+#, php-format
+msgid "Order %s"
+msgstr "Pedido %s"
+
+msgid "Order:"
+msgstr "Pedido:"
+
+#, php-format
+msgid "Pay before %s or the order will be cancelled."
+msgstr "Paga antes del %s o el pedido se cancelará."
+
+#, php-format
+msgid "Pay before %s. After that the order is cancelled automatically."
+msgstr "Paga antes del %s. Después de esa fecha el pedido se cancela automáticamente."
+
+msgid "Payment concept"
+msgstr "Concepto de pago"
+
+msgid "RFC"
+msgstr "RFC"
+
+msgid "RFC (optional)"
+msgstr "RFC (opcional)"
+
+#, php-format
+msgid "SPEI payment reported for order %s"
+msgstr "Pago SPEI reportado en el pedido %s"
+
+msgid "SPEI transfer"
+msgstr "Transferencia SPEI"
+
+msgid "SPEI transfer details"
+msgstr "Datos para tu transferencia SPEI"
+
+msgid "Sending bank"
+msgstr "Banco emisor"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Shown on the order received page and in the order email."
+msgstr "Se muestran en la página de confirmación y en el correo del pedido."
+
+msgid "Some banks ask for it when the customer adds your account as a recipient."
+msgstr "Algunos bancos lo piden al dar de alta la cuenta destino."
+
+msgid "Thank you. We received your payment notice and will confirm your order as soon as we verify the transfer."
+msgstr "Gracias. Recibimos tu aviso de pago y confirmaremos tu pedido en cuanto validemos la transferencia."
+
+msgid "The CLABE is not valid: check that it has exactly 18 digits. The CLABE change was not saved."
+msgstr "La CLABE no es válida: revisa que tenga 18 dígitos y que no falte ni sobre ninguno. No se guardó el cambio de CLABE."
+
+msgid "The check digit is validated to prevent typing mistakes."
+msgstr "Se valida el dígito de control para evitar errores de captura."
+
+msgid "The customer has not reported the payment yet."
+msgstr "El cliente todavía no reporta su pago."
+
+msgid "The customer pays by SPEI transfer to your CLABE using the order number as reference. The order stays “On hold” until you confirm the deposit and is cancelled automatically if it is not paid in time."
+msgstr "El cliente transfiere por SPEI a tu CLABE usando el número de pedido como referencia. El pedido queda «En espera» hasta que confirmes el depósito y se cancela solo si no se paga a tiempo."
+
+#, php-format
+msgid "The customer reported their SPEI transfer. Tracking key: %1$s · Date: %2$s · Sending bank: %3$s. Verify it in Banxico's CEP before marking the order as paid."
+msgstr "El cliente reportó su transferencia SPEI. Clave de rastreo: %1$s · Fecha: %2$s · Banco emisor: %3$s. Valídala en el CEP de Banxico antes de marcar el pedido como pagado."
+
+msgid "The tracking key must have between 6 and 30 letters or numbers, without spaces."
+msgstr "La clave de rastreo debe tener entre 6 y 30 letras o números, sin espacios."
+
+msgid "This order was not paid by SPEI."
+msgstr "Este pedido no se pagó por SPEI."
+
+msgid "Tracking key"
+msgstr "Clave de rastreo"
+
+msgid "Transfer date"
+msgstr "Fecha de la transferencia"
+
+msgid "Verify the transfer in Banxico's CEP:"
+msgstr "Valida la transferencia en el CEP de Banxico:"
+
+#, php-format
+msgid "We received your payment notice (tracking key %s). We will confirm your order as soon as we verify the transfer."
+msgstr "Recibimos tu aviso de pago (clave de rastreo %s). Confirmaremos tu pedido en cuanto validemos la transferencia."
+
+msgid "Your CLABE"
+msgstr "Tu CLABE"
+
+msgid "Report my payment"
+msgstr "Reportar mi pago"
+
+msgid "Choose your bank"
+msgstr "Elige tu banco"
+
+msgid "For example: BBVA, Banorte, Santander. If empty, it is taken from your CLABE."
+msgstr "Ejemplo: BBVA, Banorte, Santander. Si lo dejas vacío, se toma de tu CLABE."
+
+msgid "Many SPEI orders?"
+msgstr "¿Muchos pedidos por SPEI?"
+
+#. translators: %s: URL of the SPEI Mexico Pro page.
+#, php-format
+msgid "SPEI Mexico Pro validates the reported payments in batch with Banxico’s CEP and marks the confirmed orders as paid. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a>"
+msgstr "SPEI Mexico Pro valida por lotes con el CEP de Banxico los pagos notificados y marca como pagados los pedidos confirmados. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a>"
