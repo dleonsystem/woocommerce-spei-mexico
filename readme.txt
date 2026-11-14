@@ -1,5 +1,5 @@
 === SPEI Mexico for WooCommerce ===
-Contributors: lionsystems
+Contributors: dleon55
 Tags: spei, clabe, mexico, bank transfer, payment gateway
 Requires at least: 6.5
 Tested up to: 7.1
