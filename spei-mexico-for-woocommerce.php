@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:          SPEI Mexico for WooCommerce
- * Plugin URI:           https://www.lionsystems.com.mx/
+ * Plugin URI:           https://www.lionsystems.com.mx/plugins/spei-woocommerce
  * Description:          Accept SPEI bank transfers to your Mexican CLABE: clear instructions with copy buttons, order-number reference, automatic cancellation of unpaid orders and tracking-key reports to verify in Banxico's CEP.
  * Version:              0.1.1
  * Requires at least:    6.5
