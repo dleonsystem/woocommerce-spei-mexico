@@ -65,6 +65,12 @@ Only the tracking key, the transfer date and the bank name the customer types. I
 
 No. The plugin only shows a link to Banxico's public CEP page (https://www.banxico.org.mx/cep/) in the order screen, which the store owner can open manually. No data is sent automatically.
 
+== External services ==
+
+This plugin does not connect to any external service by itself and sends no data to third parties.
+
+It only displays a link to Banco de México's public CEP (Comprobante Electrónico de Pago) page, https://www.banxico.org.mx/cep/, in the order screen and in the payment-report email sent to the store. The store owner may open it manually to verify an SPEI transfer; whatever they type there is sent by their own browser to Banco de México (https://www.banxico.org.mx/), under that site's own terms and privacy notice.
+
 == Screenshots ==
 
 1. Checkout with the SPEI transfer method (store in Spanish).
