@@ -37,7 +37,14 @@ Requisitos: WordPress 6.5+, WooCommerce, PHP 7.4+ y moneda MXN.
 ## ¿Quieres que los pagos se confirmen solos? → SPEI México Pro
 
 La versión gratuita deja todo listo para que verifiques cada transferencia a mano en el CEP de Banxico.
-**SPEI México Pro** compara el comprobante CEP de Banxico contra el pedido (monto, CLABE, fecha y clave de rastreo) y lo marca como pagado sin que lo revises uno por uno; impide que una misma transferencia pague dos pedidos.
+**SPEI México Pro** valida los pagos por lotes, sin revisar pedido por pedido:
+
+1. El plugin arma el archivo con todos los pagos reportados (hasta 500).
+2. Lo subes a la consulta de comprobantes por lotes del CEP de Banxico.
+3. Subes al plugin el ZIP que te devuelve Banxico.
+4. Los pedidos cuyo comprobante coincide (monto, CLABE, fecha y clave de rastreo) se marcan como pagados; los demás quedan en espera con una nota. Una misma transferencia no puede pagar dos pedidos.
+
+El plugin no entra al portal de Banxico por ti: usa el servicio público tal como lo describe su guía de operación.
 
 **$800.40 MXN al año (IVA incluido), licencia por tienda.** Factura disponible.
 👉 [Ver SPEI México Pro](https://www.lionsystems.com.mx/plugins/spei-woocommerce?utm_source=github&utm_medium=readme&utm_campaign=spei-pro)
@@ -59,4 +66,4 @@ Reportes de errores y propuestas: [Issues](../../issues).
 
 Accept **SPEI bank transfers to your Mexican CLABE** in WooCommerce with no gateway fees: clear payment instructions with copy buttons, CLABE validation, automatic cancellation of unpaid orders, and an "I already paid" form with the SPEI tracking key. Free and open source (GPLv2+).
 
-Need automatic payment confirmation against Banxico's CEP? See [SPEI Mexico Pro](https://www.lionsystems.com.mx/plugins/spei-woocommerce?utm_source=github&utm_medium=readme&utm_campaign=spei-pro).
+Need batch payment validation against Banxico's CEP (you upload the batch file and Banxico's ZIP; matching orders are marked paid)? See [SPEI Mexico Pro](https://www.lionsystems.com.mx/plugins/spei-woocommerce?utm_source=github&utm_medium=readme&utm_campaign=spei-pro).
